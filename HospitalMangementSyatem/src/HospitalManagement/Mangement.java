@@ -79,7 +79,7 @@ public static void main(String[] args) throws ClassNotFoundException, SQLExcepti
 	 ResultSet res = ps.executeQuery();
 	 System.out.println("Your Appointments are :");
 	    System.out.println("=============+===============+===========+");
-		System.out.println("| Doctor Id  |  Patient Id   |    Date   |");
+		System.out.println("| Patient Id  |  Doctor Id   |    Date   |");
 		System.out.println("=============+===============+===========+");
 	 while(res.next()) {
 		 int id = res.getInt("patient_id");
